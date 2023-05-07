@@ -17,3 +17,7 @@ If this project is updated at any point while you're working your way through it
 # Table of Contents
 
 1. [Objects, Classes, and Functions](/1/)
+
+# Acknowledgements
+
+This guide is roughly based on the amazing prof. David Chiu's CS161 homework assignments, just condensed.
