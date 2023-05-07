@@ -16,4 +16,4 @@ If this project is updated at any point while you're working your way through it
 
 # Table of Contents
 
-
+1. [Objects, Classes, and Functions](/1/)
