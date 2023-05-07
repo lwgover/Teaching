@@ -10,6 +10,10 @@ This is a project based introduction to computer science study guide. The study 
 1. open the Terminal app, and paste this code `cd Desktop` then `git clone https://github.com/lwgover/Intro-To-CS-Study-Guide`
 2. Install `Processing` from [here](https://processing.org/download)
 
+## Updates:
+
+If this project is updated at any point while you're working your way through it, simply open the terminal app, paste `cd Desktop/Intro-To-CS-Study-Guide` then `git pull`
+
 # Table of Contents
 
 
