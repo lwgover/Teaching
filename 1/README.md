@@ -101,6 +101,7 @@ public class Cat extends Animal { //child class / sub-class / derived class, ext
     @Override                     //override method from Animal  
     public String getName() {     //overriding getName method with new implementation 
         return "Cat " + super.getName();           //using super to call parent method implementation  					      super we can call parent methods even if they are overridden in child class      	}     }     ```      Here we have created a `Cat` class which inherits from `Animal`. This means that all the variables and methods of `Animal` are also available in `Cat`, plus any additional variables or methods that we want to add in `Cat`. We can also override existing methods of the parent class.
+	```
 	
 # Coding
 ## 🤖 Make an Object!
