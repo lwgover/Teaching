@@ -189,7 +189,7 @@ make a person object. Can you introduce a person to a hero? what about a hero to
 14. Try writing a `public string getRealName()` function that prints the SuperHero's real name without using `super.getName()`
 
 
-## 🤖 Math 2: The squeakuel
+## 🤖 Math 2: The sequel
 Java has a class called math that is automatically imported into every project you make. To learn the difference between static and non-static variables and functions, we're going to make our own.
 1. Make a class called Math2
 2. Math2 is going to have some public static final fields: `PI` and `e`. initialize these variables to their proper values 
