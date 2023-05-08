@@ -43,11 +43,11 @@ run your functions on the object!<br>
 6. now make a `Person` class. This class should have one field called name, and a constructor that sets the name
 7. Add in all the functions from the [Your Name] class. Rewrite them to work with the `this.name` field
 8. Add another `introduce` function, this time it should take the argument `otherPerson` which will have a type of `Person`. This function should introduce `this` person to the other person
-<br>Example in the BlueJ codepad:```java
+<br>Example in the BlueJ codepad: ```
 	>Person adam = new Person("Adam Alan Smith");
 	>Person lucas = new Person("Lucas");
 	>adam.introduce(Lucas);
-	*Hi Lucas, I'm Adam Alan Smith*```
+	Hi Lucas, I'm Adam Alan Smith ```
 <br>Example with objects:
 ```	1. Create a Person object, with a name of instance as adam, and give it the name "Adam"
 	2. Create a Person object, call it lucas, and give it the name "Lucas"
