@@ -32,8 +32,10 @@ This lesson will cover making objects and classes
 4. fill in these functions, so that they do the stuff
 5. make a java object by right clicking your class<br>
 
-![make object picture](./images/make_object.png)
+![make object picture](./images/make_object.png)<br>
 give it a name<br>
-![name object picture](./images/name_object.png)
+![name object picture](./images/name_object.png)<br>
 run your functions on the object!<br>
-![object picture](./images/object.png)
+![object picture](./images/object.png)<br>
+
+6.
