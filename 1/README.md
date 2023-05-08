@@ -19,7 +19,7 @@ This lesson will cover making objects and classes
 11. What does `Super` mean?
 
 ## 📖 Intro to Objects?
-
+I'll fill this in later probably
 
 # Coding
 ## 🤖 Make an Object!
@@ -72,4 +72,9 @@ make a person object. Can you introduce a person to a hero? what about a hero to
 
 ## 🤖 Math 2: The squeakuel
 Java has a class called math that is automatically imported into every project you make. To learn the difference between static and non-static variables and functions, we're going to make our own.
-
+1. Make a class called Math2
+2. Math2 is going to have some public static final fields: `PI` and `e`. initialize these variables to their proper values 
+3. Math2 is going to have a static function `min(int a, int b)` which returns the minimum of two variables. Write this function.
+4. Math2 is going to have a static function `max(int a, int b)` which returns the maximum of two variables. Write this function.
+5. explain why these functions are static
+6. (optional) add some more static functions to this class that would normally be in Math.
