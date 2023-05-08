@@ -15,6 +15,8 @@ This lesson will cover making objects and classes
 7. What is the difference between a static and non-static variable?
 8. What is the difference between a static and non-static function?
 9. What is a constructor?
+10. Explain Inheritance
+11. What does `Super` mean?
 
 ## 📖 Intro to Objects?
 
@@ -44,10 +46,10 @@ run your functions on the object!<br>
 8. Add another `introduce` function, this time it should take the argument `otherPerson` which will have a type of `Person`. This function should introduce `this` person to the other person
 <br>Example in the BlueJ codepad:
  ```
->Person adam = new Person("Adam Alan Smith");
->Person lucas = new Person("Lucas");
->adam.introduce(Lucas);
-Hi Lucas, I'm Adam Alan Smith 
+>Person adam = new Person("Adam Alan Smith"); <br>
+>Person lucas = new Person("Lucas");<br>
+>adam.introduce(Lucas);<br>
+Hi Lucas, I'm Adam Alan Smith <br>
 ```
 <br>Example with objects:
 > Create a Person object, with a name of instance as adam, and give it the name "Adam"
@@ -59,7 +61,8 @@ Hi Lucas, I'm Adam Alan Smith
 Think of extend like it's saying: "SuperHero is a type of person, who can do everything a person can, and more." 
 
 10. SuperHero will have a field called heroName, which is their super hero alias. create this field.
-11. Now you're going to make the constructor. This will take two arguments `(String name, String heroName)`. Fill in the constructor. <br> *note: you should not have the line `this.name=name` in this constructor. Because SuperHero inherits from Person, you should figure out how to use `super()` to initialize name.
+11. Now you're going to make the constructor. This will take two arguments `(String name, String heroName)`. Fill in the constructor. <br>
+> note: you should not have the line `this.name=name` in this constructor. Because SuperHero inherits from Person, you should figure out how to use `super()` to initialize name.
 12. Override the introduce functions to print the hero's HeroName, not their person name. Make sure to add `@Override` above the functions to denote that you are changing what the function typically does.
 13. Testing: make a SuperHero object for Spiderman.
 what happens when you run `getName()` even though you never wrote a getName function?
@@ -67,6 +70,6 @@ make a person object. Can you introduce a person to a hero? what about a hero to
 14. Try writing a `public string getRealName()` function that prints the SuperHero's real name without using `super.getName()`
 
 
-##🤖 Math 2: The squeakuel
+## 🤖 Math 2: The squeakuel
 Java has a class called math that is automatically imported into every project you make. To learn the difference between static and non-static variables and functions, we're going to make our own.
 
