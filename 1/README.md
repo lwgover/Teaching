@@ -2,9 +2,8 @@
 
 This lesson will cover making objects and classes
 
-# Questions + Notes
-## Objects
-### 📝 Questions?
+# Review
+## 📝 Questions
 *Please handwrite out your answers to these questions. Answer to the best of your ability*
 *Make sure to handwrite your answers, you'll learn it faster I promise*
 1. What is an object?
@@ -17,11 +16,11 @@ This lesson will cover making objects and classes
 8. What is the difference between a static and non-static function?
 9. What is a constructor?
 
-### 📖 Intro to Objects?
+## 📖 Intro to Objects?
 
 
 # Coding
-### 🤖 Make an Object!
+## 🤖 Make an Object!
 
 1. In BlueJ, open the `Intro-To-CS-Study-Guide/1` project
 2. create a class called [your name] (make sure the first letter is capitalized)
@@ -57,4 +56,14 @@ Hi Lucas, I'm Adam Alan Smith
 3. right click on adam, and run the introduce function
 4. you should get a terminal pop up that says "Hi Lucas, I'm Adam"
 ```
+9. Now you're going to make a third class called `SuperHero` which will extend Person
+Think of extend like it's saying: "SuperHero is a type of person, who can do everything a person can, and more." 
 
+10. SuperHero will have a field called heroName, which is their super hero alias. create this field.
+11. Now you're going to make the constructor. This will take two arguments `(String name, String heroName)`. Fill in the constructor. <br> *note: you should not have the line `this.name=name` in this constructor. Because SuperHero inherits from Person, you should figure out how to use `super()` to initialize name.
+12. Override the introduce functions to print the hero's HeroName, not their person name. Make sure to add `@Override` above the functions to denote that you are changing what the function typically does.
+13. Testing: make a SuperHero object for Spiderman.
+what happens when you run `getName()` even though you never wrote a getName function?
+make a person object. Can you introduce a person to a hero? what about a hero to a person.<br><br>
+##🤖 Math 2: The squeakuel
+Java has a class called math that is automatically imported into every project you make. To learn the difference between static and non-static variables and functions, we're going to make our own.
