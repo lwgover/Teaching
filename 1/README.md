@@ -17,6 +17,7 @@ This lesson will cover making objects and classes
 9. What is a constructor?
 10. Explain Inheritance
 11. What does `Super` mean?
+12. what does an else if statement do?
 
 ## 📖 Intro to Objects?
 I'll fill this in later probably
