@@ -102,6 +102,43 @@ public class Cat extends Animal { //child class / sub-class / derived class, ext
     public String getName() {     //overriding getName method with new implementation 
         return "Cat " + super.getName();           //using super to call parent method implementation  					      super we can call parent methods even if they are overridden in child class      	}     }     ```      Here we have created a `Cat` class which inherits from `Animal`. This means that all the variables and methods of `Animal` are also available in `Cat`, plus any additional variables or methods that we want to add in `Cat`. We can also override existing methods of the parent class.
 ```
+
+## 📖 Review Question Answers:
+1. What is an object?
+> an object is an instance of a class and is used to store and manipulate data.
+
+2. What is a class?
+> A class is a blueprint for objects. It is used to represent real-world entities in the code.
+
+3. What is a function?
+> A function is a piece of code that takes an input, performs certain operations on the input, and returns an output.
+
+4. What is a variable?
+> A variable is a name that can be used to store values such as numbers, strings, objects and arrays in the code.
+
+5. How do you initialize a variable in java? 
+> You can initialize a variable in java using the declaration and assignment syntax, e.g. int x = 5; 
+
+6. In `public static void main(String[] args)` what does each word mean? 
+> 'public' means that this method can be accessed from anywhere; 'static' means that this method belongs to the class itself, not to an object; 'void' indicates that this method has no return value; 'main' is the method name; 'String[] args' is an array of strings that can be passed into the method as parameters;
+
+7. What is the difference between a static and non-static variable? 
+> A static variable can be accessed without creating an object of that class, while non-static variables need an object to access them. Static variables are shared among all objects of the same class, while non-static variables have separate copies for each object. 
+
+8. What is the difference between a static and non-static function? 
+> A static function can be called without creating an object of that class, while non-static functions need an object to call them. Static functions are shared between all objects of the same class, while non-static functions have separate copies for each object. 
+
+9. What is a constructor? 
+> A constructor is a special method used to create and initialize an object when it is created. It must have the same name as the class itself and no return type (not even void). 
+
+10. Explain Inheritance 
+> Inheritance enables one class to reuse (or inherit) code from another class by extending it, thereby allowing developers to create new classes from existing classes with a few modifications. The parent-child relationship between the two classes is determined by the `extends` keyword so that all public members of the parent class are available in the child class together with any additional members it might have.
+ 
+11. What does `Super` mean? 
+> The `super` keyword refers to the parent class, and it's used to access members of the parent class which have been overridden in the child class. 
+
+12. What does an else if statement do? 
+> An else if statement allows you to execute different pieces of code depending on whether certain conditions are met or not, without having to use multiple if statements.
 	
 # Coding
 ## 🤖 Make an Object!
