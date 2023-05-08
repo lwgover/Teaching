@@ -46,10 +46,10 @@ run your functions on the object!<br>
 8. Add another `introduce` function, this time it should take the argument `otherPerson` which will have a type of `Person`. This function should introduce `this` person to the other person
 <br>Example in the BlueJ codepad:
  ```
->Person adam = new Person("Adam Alan Smith"); <br>
->Person lucas = new Person("Lucas");<br>
->adam.introduce(Lucas);<br>
-Hi Lucas, I'm Adam Alan Smith <br>
+>Person adam = new Person("Adam Alan Smith");
+>Person lucas = new Person("Lucas");
+>adam.introduce(Lucas);
+Hi Lucas, I'm Adam Alan Smith 
 ```
 <br>Example with objects:
 > Create a Person object, with a name of instance as adam, and give it the name "Adam" <br>
