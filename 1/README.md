@@ -27,4 +27,12 @@ This lesson will cover making objects and classes
 ```java
 	public String getName(){} // this function will return your name.
 	public void printName(){} // prints your name
-	public String introduce(String otherPersonName){} // returns "Hi [other person's name], I'm [your name]"```
+	public String introduce(String otherPersonName){} // returns "Hi [other person's name], I'm [your name]"
+```
+4. fill in these functions, so that they do the stuff
+5. make a java object by right clicking your class
+![make object picture](./images/make_object.png)
+give it a name
+![name object picture](./images/name_object.png)
+run your functions on the object!
+![object picture](./images/object.png)
