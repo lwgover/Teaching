@@ -19,9 +19,89 @@ This lesson will cover making objects and classes
 11. What does `Super` mean?
 12. what does an else if statement do?
 
-## 📖 Intro to Objects?
-I'll fill this in later probably
+## 📖 Notes on Functions
+Think of a function as a self-contained black box, that takes a set of inputs and gives an output. <br><br> kind of like these diagrams you saw in elementary school:
 
+![function picture](./images/function.gif)<br>
+
+The code in the function is to explain the rule.
+
+## 📖 Notes on objects
+In programming, an object is something that houses data and behavior.
+
+A class is a template for an object. It contains all the variables and functions that will make up the object but it does not define any specific values for any of their properties.
+
+Take a look at this example:
+
+```java
+public class Car {
+  private int speed;
+  public void accelerate() { 
+    speed += 5; 
+  } 
+} 
+```
+In this example, `Car` is the class, and `speed` and `accelerate()` are the variables and functions that make up the Object. <br><br> To create a car object we would say `Car myCar = new Car()`.  
+
+
+## 📖 Notes on Variables 
+Variables are the containers that help keep track of data in our programs. Variables can be of different types such as integers (whole numbers), floating points (numbers with decimal points), strings (text), etc. Variables must be declared before they can be used. This is done with a keyword such as `int` or `String`. 
+
+In Java, variables must be initialized before they can be used (assigned a value). This is done by using the keyword `=` followed by a value.  <br> <br> For example:  `int x = 5;`
+
+
+## 📖 Notes on Constructors
+A constructor is a special kind of function used to create an instance of an object. It is called when the object is created and it is used to initialize all the variables associated with an object.  A constructor is always named after the class it is defined in and it does not have any return type. For example: 
+
+
+```java 
+public class Car { 
+
+    private int speed; //declaring instance variables
+
+    public Car() { //constructor				//constructor always named after class name  								and has no return type  
+        speed = 0; // initializing instance variables     // conventionally constructor name should start with capital letter  
+
+    }
+
+    public void accelerate() { //example of instance method  
+        speed += 5; //increasing speed by 5
+
+    } 
+}  
+```
+
+ Here, the constructor initializes the instance variable "speed" to 0 when an object of type "Car" is created.
+
+ ## 📖 Notes on Inheritance 
+Inheritance is the ability to create new classes that reuse, extend, and modify existing classes (inherited class or parent class) to create a new one (inheriting class or child class). This allows us to reuse code from existing classes and create new ones that use the same code with a few modifications. <br><br> In Java, Inheritance is achieved by using the `extends` keyword. For example: 
+
+ ```java
+public class Animal {   //parent class / base class / superclass
+
+    private String name;
+
+    public Animal(String name) {   //constructor with parameter name  
+        this.name = name;  
+    }  
+
+    public String getName() {   //accessor getName() to return name  
+        return name;  
+    }  
+}  
+``` 
+
+ ```java  
+public class Cat extends Animal { //child class / sub-class / derived class, extends Animal  
+
+    public Cat(String name) {     //constructor which call parent constructor  
+        super(name);              //using super keyword to call parent constructor  
+    }                            //now Cat has all the members from Animal  
+
+    @Override                     //override method from Animal  
+    public String getName() {     //overriding getName method with new implementation 
+        return "Cat " + super.getName();           //using super to call parent method implementation  					      super we can call parent methods even if they are overridden in child class      	}     }     ```      Here we have created a `Cat` class which inherits from `Animal`. This means that all the variables and methods of `Animal` are also available in `Cat`, plus any additional variables or methods that we want to add in `Cat`. We can also override existing methods of the parent class.
+	
 # Coding
 ## 🤖 Make an Object!
 
