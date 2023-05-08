@@ -50,12 +50,11 @@ run your functions on the object!<br>
 Hi Lucas, I'm Adam Alan Smith 
 ```
 <br>Example with objects:
-```	
-1. Create a Person object, with a name of instance as adam, and give it the name "Adam"
-2. Create a Person object, call it lucas, and give it the name "Lucas"
-3. right click on adam, and run the introduce function
-4. you should get a terminal pop up that says "Hi Lucas, I'm Adam"
-```
+> Create a Person object, with a name of instance as adam, and give it the name "Adam"
+> Create a Person object, call it lucas, and give it the name "Lucas"
+> right click on adam, and run the introduce function
+> you should get a terminal pop up that says "Hi Lucas, I'm Adam"
+
 9. Now you're going to make a third class called `SuperHero` which will extend Person
 Think of extend like it's saying: "SuperHero is a type of person, who can do everything a person can, and more." 
 
@@ -65,5 +64,9 @@ Think of extend like it's saying: "SuperHero is a type of person, who can do eve
 13. Testing: make a SuperHero object for Spiderman.
 what happens when you run `getName()` even though you never wrote a getName function?
 make a person object. Can you introduce a person to a hero? what about a hero to a person.<br><br>
+14. Try writing a `public string getRealName()` function that prints the SuperHero's real name without using `super.getName()`
+
+
 ##🤖 Math 2: The squeakuel
 Java has a class called math that is automatically imported into every project you make. To learn the difference between static and non-static variables and functions, we're going to make our own.
+
