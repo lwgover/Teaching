@@ -3,10 +3,19 @@
 ## Description
 This is a project based introduction to computer science study guide. The study guide will walk through important concepts like Objects, Constructors, Functions, If statements, If-else statments, Static vs. Non-Static, While loops, Arrays, For loops, ArrayLists, and basic graphics with processing.
 
-*Important note: for the purposes of this study guide, there is no wrong answer as long as the code works. The code can be as messy, or inefficient as you'd like, as long as it makes sense to you, and works* 
+If you have any questions during the course of this study guide, feel free to reach out to me at _*lucasgover@gmail.com*_.
 
+*Important note: for the purposes of this study guide, there is no wrong answer as long as the code works. The code can be as messy, or inefficient as you'd like, as long as it makes sense to you, and works. Have fun! make mistakes! try different approaches! These assignments are not graded, and are only for you to learn, so do whatever that looks like for you* 
 
-## Installing:
+![#f03c15](https://placehold.co/15x15/f03c15/f03c15.png) Please don't copy and paste any of this material!! ![#f03c15](https://placehold.co/15x15/f03c15/f03c15.png)
+
+##Advice
+- Try to switch windows and tabs as minimally as possible.
+- It's really tempting to google (or ChatGPT) the answer, but you'll learn so much quicker and better if you struggle through it
+- 
+
+## Downloading:
+*If you'd like to easily access the prewritten code for this project, you can easily download this project in the terminal app (it's really easy, I promise)*
 1. open the Terminal app, and paste this code `cd Desktop` then `git clone https://github.com/lwgover/Intro-To-CS-Study-Guide`
 2. Install `Processing` from [here](https://processing.org/download)
 
