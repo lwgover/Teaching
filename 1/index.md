@@ -197,3 +197,4 @@ Java has a class called math that is automatically imported into every project y
 4. Math2 is going to have a static function `max(int a, int b)` which returns the maximum of two variables. Write this function.
 5. explain why these functions are static
 6. (optional) add some more static functions to this class that would normally be in Math.
+7. Write a tester class, which uses Math2 to do basic math problems, and print them out.

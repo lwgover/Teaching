@@ -1,7 +1,7 @@
 # __Lucas's Intro to Computer Science Final Study Guide__
 
 ## Description
-This is a project based introduction to computer science study guide. The study guide will walk through important concepts like Objects, Constructors, Functions, If statements, If-else statments, Static vs. Non-Static, While loops, Arrays, For loops, ArrayLists, and basic graphics with processing.
+This is a project based introduction to computer science study guide. The study guide will walk through important concepts like objects, constructors, functions, if statements, if-else statments, static vs. non-Static, while loops, arrays, for loops, arrayLists, basic sorting algorithms and basic graphics with processing.
 
 If you have any questions during the course of this study guide, feel free to reach out to me at _*lucasgover@gmail.com*_.
 
@@ -18,6 +18,7 @@ If you have any questions during the course of this study guide, feel free to re
 ## Downloading:
 *If you'd like to easily access the prewritten code for this project, you can easily download this project by using the terminal app (it's really easy, I promise)*
 - open the Terminal app, and paste this code `cd Desktop` then `git clone https://github.com/lwgover/Intro-To-CS-Study-Guide`
+
 **it's possible this might not work on windows or linux machines. If this doesn't work, simply copy and paste the code manually*
 
 Some parts of this project will use app __Processing__ to quickly visualize code.
@@ -30,6 +31,13 @@ If this project is updated at any point while you're working your way through it
 # Table of Contents
 
 1. [Objects, Classes, and Functions](./1/)
+2. [if and else statements](./2/)
+3. [Arrays and ArrayLists](./3/)
+4. [Loops!](./4/)
+5. [Sorting Algorithms](./5/)
+6. [Graphics (a.k.a the fun part)](./6/)
+7. [Java Graphics Review (Adam's class only)](./7/)
+*. [Helpful info for Tutors](./tutors/)
 
 # Acknowledgements
 
