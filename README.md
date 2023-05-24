@@ -9,10 +9,11 @@ If you have any questions during the course of this study guide, feel free to re
 
 ![#f03c15](https://placehold.co/15x15/f03c15/f03c15.png) __Please don't copy and paste any of this material!!__ ![#f03c15](https://placehold.co/15x15/f03c15/f03c15.png)
 
-##Advice
+## Advice
 - Try to switch windows and tabs as minimally as possible.
 - It's really tempting to google (or ChatGPT) the answer, but you'll learn so much quicker and better if you struggle through it
-- If you learn something new, write it down in your own words!
+- If you learn something new, physically write it down in your own words! this will dramatically improve your retention of the material
+- Have fun with it! If you don't like the lesson, make your own!
 
 ## Downloading:
 *If you'd like to easily access the prewritten code for this project, you can easily download this project by using the terminal app (it's really easy, I promise)*
@@ -32,4 +33,4 @@ If this project is updated at any point while you're working your way through it
 
 # Acknowledgements
 
-This guide is roughly based on the amazing prof. David Chiu's CS161 homework assignments, just condensed.
+This guide is roughly based on the homeworks and labs of Prof. Chambers, David Chiu, and Adam Smith
