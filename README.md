@@ -12,12 +12,15 @@ If you have any questions during the course of this study guide, feel free to re
 ##Advice
 - Try to switch windows and tabs as minimally as possible.
 - It's really tempting to google (or ChatGPT) the answer, but you'll learn so much quicker and better if you struggle through it
-- 
+- If you learn something new, write it down in your own words!
 
 ## Downloading:
-*If you'd like to easily access the prewritten code for this project, you can easily download this project in the terminal app (it's really easy, I promise)*
-1. open the Terminal app, and paste this code `cd Desktop` then `git clone https://github.com/lwgover/Intro-To-CS-Study-Guide`
-2. Install `Processing` from [here](https://processing.org/download)
+*If you'd like to easily access the prewritten code for this project, you can easily download this project by using the terminal app (it's really easy, I promise)*
+- open the Terminal app, and paste this code `cd Desktop` then `git clone https://github.com/lwgover/Intro-To-CS-Study-Guide`
+**it's possible this might not work on windows or linux machines. If this doesn't work, simply copy and paste the code manually*
+
+Some parts of this project will use app __Processing__ to quickly visualize code.
+For these sections, install `Processing` from [here](https://processing.org/download)
 
 ## Updates:
 
