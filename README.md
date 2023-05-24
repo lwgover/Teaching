@@ -7,7 +7,7 @@ If you have any questions during the course of this study guide, feel free to re
 
 *Important note: for the purposes of this study guide, there is no wrong answer as long as the code works. The code can be as messy, or inefficient as you'd like, as long as it makes sense to you, and works. Have fun! make mistakes! try different approaches! These assignments are not graded, and are only for you to learn, so do whatever that looks like for you* 
 
-![#f03c15](https://placehold.co/15x15/f03c15/f03c15.png) Please don't copy and paste any of this material!! ![#f03c15](https://placehold.co/15x15/f03c15/f03c15.png)
+![#f03c15](https://placehold.co/15x15/f03c15/f03c15.png) __Please don't copy and paste any of this material!!__ ![#f03c15](https://placehold.co/15x15/f03c15/f03c15.png)
 
 ##Advice
 - Try to switch windows and tabs as minimally as possible.
