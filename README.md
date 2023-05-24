@@ -11,7 +11,7 @@ If you have any questions during the course of this study guide, feel free to re
 
 ## Advice
 - Try to switch windows and tabs as minimally as possible.
-- It's really tempting to google (or ChatGPT) the answer, but you'll learn so much quicker and better if you struggle through it
+- It's really tempting to google (or ChatGPT) the answer, but you'll learn so much quicker and better if you struggle through it. If you really can't figure something out, try talking it out with a friend first!
 - If you learn something new, physically write it down in your own words! this will dramatically improve your retention of the material
 - Have fun with it! If you don't like the lesson, make your own!
 
@@ -37,6 +37,7 @@ If this project is updated at any point while you're working your way through it
 5. [Sorting Algorithms](./5/)
 6. [Graphics (a.k.a the fun part)](./6/)
 7. [Java Graphics Review (Adam's class only)](./7/)
+
 *. [Helpful info for Tutors](./tutors/)
 
 # Acknowledgements
