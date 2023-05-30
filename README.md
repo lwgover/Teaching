@@ -37,8 +37,7 @@ If this project is updated at any point while you're working your way through it
 5. [Sorting Algorithms](./5/)
 6. [Graphics (a.k.a the fun part)](./6/)
 7. [Java Graphics Review (Adam's class only)](./7/)
-
-*. [Helpful info for Tutors](./tutors/)
+8. [Helpful info for Tutors](./tutors/)
 
 # Acknowledgements
 

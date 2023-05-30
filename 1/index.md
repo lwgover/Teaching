@@ -172,9 +172,9 @@ Hi Lucas, I'm Adam Alan Smith
 ```
 <br>Example with objects:
 > Create a Person object, with a name of instance as adam, and give it the name "Adam" <br>
-> Create a Person object, call it lucas, and give it the name "Lucas" <br>
+> Create a Person object, call it <your name>, and give it the name "<your name>" <br>
 > right click on adam, and run the introduce function <br>
-> you should get a terminal pop up that says "Hi Lucas, I'm Adam" <br>
+> you should get a terminal pop up that says "Hi <your name>, I'm Adam" <br>
 
 9. Now you're going to make a third class called `SuperHero` which will extend Person
 Think of extend like it's saying: "SuperHero is a type of person, who can do everything a person can, and more." 
