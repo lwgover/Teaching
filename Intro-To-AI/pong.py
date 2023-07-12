@@ -156,7 +156,7 @@ def main():
         handle_paddle_movement(keys, left_paddle, right_paddle)
 
         ball.move()
-        right_paddle.update_pos_to_ball(ball)
+        right_paddle.ai_move(ball)
         handle_collision(ball, left_paddle, right_paddle)
 
         if ball.x < 0:
